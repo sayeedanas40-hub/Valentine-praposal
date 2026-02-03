@@ -1,0 +1,50 @@
+body {
+  background: #ffdde1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.phone {
+  width: 320px;
+  height: 560px;
+  background: #000;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.screen {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  height: 100%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+button {
+  background: white;
+  color: #ff4d6d;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.no {
+  position: relative;
+}
